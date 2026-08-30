@@ -1,6 +1,7 @@
 import CartDisplayRTK from "./components/cartDisplayRTK";
 import CartSummaryRTK from "./components/CartSummaryRTK";
 import ProductAdderRTK from "./components/ProductAdderRTK";
+import "./App.css";
 
 function App() {
   return (

@@ -12,7 +12,7 @@ function CartDisplayRTK() {
     }
 
     return (
-        <div>
+        <div className="cart-display">
             <h2>Your Cart</h2>
             <ul>
                 {itemsArray.map((item) => (
