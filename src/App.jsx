@@ -1,4 +1,4 @@
-import CartDisplayRTK from "./components/cartDisplayRTK";
+import CartDisplayRTK from "./components/CartDisplay";
 import CartSummaryRTK from "./components/CartSummaryRTK";
 import ProductAdderRTK from "./components/ProductAdderRTK";
 import "./App.css";
