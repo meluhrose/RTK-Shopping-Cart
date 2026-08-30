@@ -1,6 +1,8 @@
 import CartDisplayRTK from "./components/CartDisplay";
 import CartSummaryRTK from "./components/CartSummaryRTK";
 import ProductAdderRTK from "./components/ProductAdderRTK";
+import LoginForm from "./components/LoginForm";
+import LogoutButton from "./components/LogoutButton";
 import "./App.css";
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
       <CartDisplayRTK />
       <CartSummaryRTK />
       <ProductAdderRTK />
+      <LoginForm />
+      <LogoutButton />
     </div>
   );
 }

@@ -1,6 +1,8 @@
 import { configureStore, combineReducers } from "@reduxjs/toolkit";
 import cartReducer from "../features/cart/cartSlice";
 import { persistStore, persistReducer, FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER } from "redux-persist";
+import authReducer from "../features/auth/authSlice";
+
 
 const storage = {
     getItem: async (key) => {
@@ -28,6 +30,7 @@ const storage = {
 
 const rootReducer = combineReducers({
     cart: cartReducer,
+    auth: authReducer,
 });
 
 const persistConfig = {
